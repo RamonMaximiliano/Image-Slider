@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(116, 117, 221);
+    margin: 0;
+}
+
+.main-header {
+    text-align: center;
+    background-color: rgb(116, 187, 114);
+    box-sizing: border-box;
+    color:white;
+    margin-top:-25px;
+    padding:10px;
+}
