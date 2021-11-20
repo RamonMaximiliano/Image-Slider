@@ -5,7 +5,7 @@ body {
 
 .main-header {
     text-align: center;
-    background-color: rgb(116, 187, 114);
+    background-color: rgb(113, 54, 223);
     box-sizing: border-box;
     color:white;
     margin-top:-25px;
@@ -13,17 +13,44 @@ body {
 }
 
 .buttons {
-    margin-top:20%;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin-top:5%;
     align-items: center;
     display: flex;
     justify-content: space-between;
-
+    transition: background-image 1s;
 }
 
+.image1 {
+    background-image: url(/images/pexels-aleksandar-pasaric-1285625.jpg);
+    transition: background-image 1s;
+}
+.image2 {
+    background-image: url(/images/pexels-asad-photo-maldives-1591373.jpg);
+    transition: background-image 1s;
+}
+.image3 {
+    background-image: url(/images/pexels-julius-silver-870711.jpg);
+    transition: background-image 1s;
+}
+.image4 {
+    background-image: url(/images/pexels-pixabay-462086.jpg);
+    transition: background-image 1s;
+}
+
+
 .buttonstoClick {
+    font-weight: bold;
     width:100px;
     height: 100px;
     border-radius: 50%;
     border-style: none;
     margin:20px;
 }
+
+.buttonstoClick:hover{
+    background-color: rgb(216, 142, 226);
+}
+
