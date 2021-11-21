@@ -8,6 +8,7 @@
     <title>Image Slider</title>
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="main-header">
         <h1>Ramon</h1>
@@ -15,12 +16,31 @@
     </div>
 
 
-<div class="buttons image1" id="mainImage">
-    <button class="buttonstoClick" onclick="changeImageLeft()">Left</button>
-    <button class="buttonstoClick" onclick="changeImageRight()">Right</button>
-</div>
+    <div class="buttons image1" id="mainImage">
+        <button class="buttonstoClick" onclick="changeImageLeft()">Left</button>
+        <button class="buttonstoClick" onclick="changeImageRight()">Right</button>
+    </div>
 
 
-<script src="animation.js"></script>
+    <div class="sliderMain">
+        <div class="MainbuttonstoClick2">
+            <button class="buttonstoClick1" onclick="changeImageLeft1()">Left</button>
+            <button class="buttonstoClick2" onclick="changeImageRight2()">Right</button>
+        </div>
+        <div class="sliderBoni">
+            <div class="sliderItem" style="background-image: url('images/pexels-aleksandar-pasaric-1285625.jpg');">
+            </div>
+            <div class="sliderItem" style="background-image: url('images/pexels-asad-photo-maldives-1591373.jpg');">
+            </div>
+            <div class="sliderItem" style="background-image: url('images/pexels-julius-silver-870711.jpg');"></div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="animation.js"></script>
 </body>
+
 </html>

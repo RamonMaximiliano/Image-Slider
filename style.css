@@ -1,3 +1,5 @@
+/*My Slider*/
+
 body {
     background-color: rgb(116, 117, 221);
     margin: 0;
@@ -20,26 +22,28 @@ body {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    transition: background-image 1s;
+    transition: background-image 0.5s;
 }
 
 .image1 {
     background-image: url(/images/pexels-aleksandar-pasaric-1285625.jpg);
-    transition: background-image 1s;
-}
-.image2 {
-    background-image: url(/images/pexels-asad-photo-maldives-1591373.jpg);
-    transition: background-image 1s;
-}
-.image3 {
-    background-image: url(/images/pexels-julius-silver-870711.jpg);
-    transition: background-image 1s;
-}
-.image4 {
-    background-image: url(/images/pexels-pixabay-462086.jpg);
-    transition: background-image 1s;
+    transition: background-image 0.5s;
 }
 
+.image2 {
+    background-image: url(/images/pexels-asad-photo-maldives-1591373.jpg);
+    transition: background-image 0.5s;
+}
+
+.image3 {
+    background-image: url(/images/pexels-julius-silver-870711.jpg);
+    transition: background-image 0.5s;
+}
+
+.image4 {
+    background-image: url(/images/pexels-pixabay-462086.jpg);
+    transition: background-image 0.5s;
+}
 
 .buttonstoClick {
     font-weight: bold;
@@ -54,3 +58,74 @@ body {
     background-color: rgb(216, 142, 226);
 }
 
+/*My Slider*/
+
+
+/*Boni Slider*/
+
+.sliderMain {
+    margin-top:50px; 
+    background-color: turquoise;
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+    margin-bottom:50px;
+}
+
+/*o width abaixo calcula *3 pois quantidade de fotos, o parametro overflow: hidden da tag pai acima é que tira a barra de rolangem e faz aparecer uma cor por vez*/
+
+.sliderBoni{
+    height:100%;
+    display:flex;
+    width: calc(100vw * 3);
+    transition: all ease 1s;
+}
+
+
+/*abaixo o vw é que ele vai utilizar 100 da disponibilidade do monitor */
+.sliderItem {
+    width: 100vw;
+    height:inherit;
+    background-size: cover;
+    background-position: center;
+}
+
+.buttonstoClick2{
+    align-items: center;
+    font-weight: bold;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: none;
+    margin:20px;
+}
+
+.buttonstoClick1{
+    align-items: center;
+    font-weight: bold;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: none;
+    margin:20px;
+}
+
+
+.buttonstoClick2:hover{
+    background-color: rgb(216, 142, 226);
+}
+
+.buttonstoClick1:hover{
+    background-color: rgb(216, 142, 226);
+}
+
+.MainbuttonstoClick2{
+    width:inherit;
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content:space-between;
+    position:absolute;
+}
+
+/*Boni Slider*/
